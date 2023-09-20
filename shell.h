@@ -14,12 +14,12 @@
 #define END_OF_FILE -2
 #define EXIT -3
 
-/* Global environemnt */
-extern char **environ;
-/* Global program name */
-char *name;
-/* Global history counter */
-int hist;
+
+extern char **environ; /* global environemnt variable */
+
+char *name; /* Global program name */
+
+int hist; /* Global history counter */
 
 extern char **environ; /* Global environemnt */
 
